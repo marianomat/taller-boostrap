@@ -1,0 +1,40 @@
+.carousel-item{
+    height: 500px;
+    
+    background-position: center;
+    background-size: cover;
+
+}
+/* 
+@media(max-width 796px)¨{
+    .carousel-item
+} */
+
+i {
+    border-bottom-width: 15px;
+}
+#foto1 {
+    height: 200px;
+    width: 200px;
+
+}   
+* {
+    font-family: Amatic+SC;
+}
+
+#seccionform {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media(min-width: 796px) {
+    #seccionform {
+        background-attachment: scroll;
+
+    }
+}
+
+#rowcont {
+    height: 100%;
+}
